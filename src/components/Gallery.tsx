@@ -67,19 +67,19 @@ function GallerySection({ title, images, onImageClick }: GallerySectionProps) {
         </div>
         
         <button 
-          className='absolute top-1/2 left-4 md:-left-12 -translate-y-1/2 bg-white/10 hover:bg-white/20 hover:scale-110 backdrop-blur-md text-white p-3 rounded-full transition-all border border-white/20 z-10'
+          className='absolute top-1/2 left-2 md:-left-12 -translate-y-1/2 bg-white/10 hover:bg-white/20 hover:scale-110 backdrop-blur-md text-white p-2 md:p-3 rounded-full transition-all border border-white/20 z-10'
           onClick={scrollPrev}
           aria-label='Previous slide'
         >
-          <ChevronLeft size={24} />
+          <ChevronLeft size={20} className='md:w-6 md:h-6' />
         </button>
         
         <button 
-          className='absolute top-1/2 right-4 md:-right-12 -translate-y-1/2 bg-white/10 hover:bg-white/20 hover:scale-110 backdrop-blur-md text-white p-3 rounded-full transition-all border border-white/20 z-10'
+          className='absolute top-1/2 right-2 md:-right-12 -translate-y-1/2 bg-white/10 hover:bg-white/20 hover:scale-110 backdrop-blur-md text-white p-2 md:p-3 rounded-full transition-all border border-white/20 z-10'
           onClick={scrollNext}
           aria-label='Next slide'
         >
-          <ChevronRight size={24} />
+          <ChevronRight size={20} className='md:w-6 md:h-6' />
         </button>
       </div>
     </div>
