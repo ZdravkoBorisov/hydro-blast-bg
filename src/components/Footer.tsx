@@ -11,9 +11,9 @@ export default function Footer() {
   const { t } = useLanguage();
   
   const socialIcons = [
-    { Icon: Facebook, href: "#" },
-    { Icon: Instagram, href: "#" },
-    { Icon: TikTokIcon, href: "#" },
+    { Icon: Facebook, href: "https://www.facebook.com/profile.php?id=61586494621441&locale=bg_BG" },
+    { Icon: Instagram, href: "https://www.instagram.com/hydroblastbg/" },
+    { Icon: TikTokIcon, href: "https://www.tiktok.com/@hydroblastbg" },
   ];
   
   return (
