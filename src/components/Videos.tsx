@@ -38,15 +38,18 @@ export default function Videos() {
             >
               <div className="aspect-video relative group cursor-pointer">
                 <ReactPlayer 
-                  src={vid.url} 
+                  url={vid.url} 
                   width="100%" 
                   height="100%" 
                   controls
-                  playIcon={
-                    <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/20 group-hover:scale-110 transition-transform duration-300">
-                      <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[18px] border-l-white border-b-[10px] border-b-transparent ml-1" />
-                    </div>
-                  }
+                  config={{
+                    youtube: {
+                      playerVars: { 
+                        showinfo: 1,
+                        rel: 0
+                      }
+                    }
+                  }}
                 />
               </div>
               <div className="p-6">
