@@ -131,6 +131,12 @@ export default function Gallery() {
           close={() => setOpen(false)}
           index={index}
           slides={currentImages}
+          carousel={{ finite: false }}
+          controller={{ closeOnBackdropClick: true }}
+          render={{
+            buttonPrev: () => null,
+            buttonNext: () => null,
+          }}
         />
       </div>
     </section>
