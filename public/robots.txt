@@ -8,9 +8,8 @@ Allow: /
 Disallow: /api/
 Disallow: /.well-known/
 
-# Sitemap location (update with your actual domain before deploying)
-# TODO: Update this to your actual domain (e.g., https://aquablast.com/sitemap.xml)
-Sitemap: https://yourdomain.com/sitemap.xml
+# Sitemap location
+Sitemap: https://hydroblastbg.com/sitemap.xml
 
 # Crawl-delay to prevent aggressive crawling (helps reduce load)
 Crawl-delay: 10

@@ -31,8 +31,8 @@ const translations = {
     // About Section
     'about.title': 'What is Aquablasting?',
     'about.subtitle': 'Revolutionary Cleaning Technology',
-    'about.p1': 'Aquablasting is an innovative surface cleaning method that uses fine glass particles propelled by compressed air and water. This technology combines the effectiveness of traditional sandblasting with the safety and environmental benefits of modern methods.',
-    'about.p2': 'The glass particles are completely recyclable, non-toxic, and safe for both operators and the environment. Aquablasting removes rust, old paint, graffiti, and other contaminants without damaging the underlying surface.',
+    'about.p1': 'Aquablasting is an innovative surface cleaning method that uses fine glass particles propelled by compressed air and water.',
+    'about.p2': 'The glass particles are completely recyclable, non-toxic, and safe for both operators and the environment. Aquablasting removes contaminants without damaging the underlying surface.',
     
     // How It Works
     'howItWorks.title': 'How Aquablasting Works',
@@ -49,7 +49,7 @@ const translations = {
     // Factory Results
     'factoryResults.title': 'Factory-Fresh Metal Restoration',
     'factoryResults.subtitle': 'Restore Your Metal Surfaces to Original Condition',
-    'factoryResults.p1': 'One of the most impressive capabilities of aquablasting is its ability to restore metal surfaces to their original factory condition. Whether dealing with old machinery, automotive parts, metal structures, or architectural elements, aquablasting removes decades of corrosion, paint, and contamination.',
+    'factoryResults.p1': 'One of the most impressive capabilities of aquablasting is its ability to restore metal surfaces to their original factory condition. Whether dealing with old machinery, automotive parts, kitchen appliances, metal structures, or architectural elements, aquablasting removes decades of contamination.',
     'factoryResults.p2': 'The precision of glass particle cleaning ensures that only unwanted materials are removed, while the base metal remains completely intact and undamaged. The result is a clean, smooth surface that looks as if it just came from the factory - perfect for restoration projects, industrial maintenance, or preparing surfaces for new coatings.',
     'factoryResults.highlight': 'Key Applications',
     'factoryResults.app1': 'Industrial equipment and machinery restoration',
@@ -58,6 +58,7 @@ const translations = {
     'factoryResults.app4': 'Removal of old coatings before repainting',
     'factoryResults.app5': 'Surface preparation for welding or bonding',
     'factoryResults.app6': 'Heritage and antique metal restoration',
+    'factoryResults.app7': 'Cleaning of kitchen appliances and commercial equipment',
     
     // Gallery
     'gallery.title': 'See Aquablasting in Action',
@@ -108,8 +109,8 @@ const translations = {
     // About Section
     'about.title': 'Какво е Аквабластинг?',
     'about.subtitle': 'Революционна Технология за Почистване',
-    'about.p1': 'Аквабластингът е иновативен метод за почистване на повърхности, който използва фини стъклени частици, задвижвани от сгъстен въздух и вода. Тази технология съчетава ефективността на традиционното пясъкоструене с безопасността и екологичните предимства на модерните методи.',
-    'about.p2': 'Стъклените частици са напълно рециклируеми, нетоксични и безопасни както за операторите, така и за околната среда. Аквабластингът премахва ръжда, стара боя, графити и други замърсявания, без да увреди основната повърхност.',
+    'about.p1': 'Аквабластингът е иновативен метод за почистване на повърхности, който използва фини стъклени частици, задвижвани от сгъстен въздух и вода.',
+    'about.p2': 'Стъклените частици са напълно рециклируеми, нетоксични и безопасни както за операторите, така и за околната среда. Аквабластингът премахва ръжда, нагар, графити и други замърсявания, без да увреди основната повърхност.',
     
     // How It Works
     'howItWorks.title': 'Как Работи Аквабластингът',
@@ -126,7 +127,7 @@ const translations = {
     // Factory Results
     'factoryResults.title': 'Възстановяване на Метал до Фабрично Състояние',
     'factoryResults.subtitle': 'Върнете Металните Повърхности в Оригинално Състояние',
-    'factoryResults.p1': 'Една от най-впечатляващите способности на аквабластинга е възможността да възстанови металните повърхности до тяхното оригинално фабрично състояние. Независимо дали се занимавате със стари машини, автомобилни части, метални конструкции или архитектурни елементи, аквабластингът премахва десетилетия корозия, боя и замърсяване.',
+    'factoryResults.p1': 'Една от най-впечатляващите способности на аквабластинга е възможността да възстанови металните повърхности до тяхното оригинално фабрично състояние. Независимо дали се занимавате със стари машини, автомобилни части, кухненски уреди, метални конструкции или архитектурни елементи, аквабластингът премахва десетилетия замърсяване.',
     'factoryResults.p2': 'Прецизността на почистването със стъклени частици гарантира, че само нежеланите материали се премахват, докато основният метал остава напълно непокътнат и неповреден. Резултатът е чиста, гладка повърхност, която изглежда като току-що излязла от фабриката - перфектна за реставрационни проекти, индустриална поддръжка или подготовка на повърхности за нови покрития.',
     'factoryResults.highlight': 'Основни Приложения',
     'factoryResults.app1': 'Възстановяване на индустриално оборудване и машини',
@@ -135,6 +136,7 @@ const translations = {
     'factoryResults.app4': 'Премахване на стари покрития преди пребоядисване',
     'factoryResults.app5': 'Подготовка на повърхност за заваряване или свързване',
     'factoryResults.app6': 'Реставрация на исторически и антикварни метали',
+    'factoryResults.app7': 'Почистване на кухненски уреди и търговско оборудване',
     
     // Gallery
     'gallery.title': 'Вижте Аквабластинга в Действие',
