@@ -47,9 +47,9 @@ function GallerySection({ title, images, onImageClick }: GallerySectionProps) {
         <div className='overflow-hidden' ref={emblaRef}>
           <div className='flex gap-4'>
             {images.map((img, i) => (
-              <div key={i} className='flex-[0_0_85%] md:flex-[0_0_45%] min-w-0 relative group'>
+              <div key={i} className='flex-[0_0_85%] sm:flex-[0_0_70%] md:flex-[0_0_45%] lg:flex-[0_0_32%] min-w-0 relative group'>
                 <div 
-                  className='relative rounded-xl overflow-hidden aspect-[4/3] cursor-pointer shadow-xl'
+                  className='relative rounded-xl overflow-hidden h-[280px] sm:h-[320px] md:h-[360px] lg:h-[400px] cursor-pointer shadow-xl bg-secondary/40'
                   onClick={() => onImageClick(i)}
                 >
                   <div className='absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all z-10 flex items-center justify-center'>
@@ -58,7 +58,7 @@ function GallerySection({ title, images, onImageClick }: GallerySectionProps) {
                   <img 
                     src={img.src} 
                     alt={img.alt} 
-                    className='w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-700'
+                    className='w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700'
                   />
                 </div>
               </div>

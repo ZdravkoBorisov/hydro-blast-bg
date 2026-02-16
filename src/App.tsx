@@ -79,6 +79,7 @@ function App() {
             <li>{t('factoryResults.app4')}</li>
             <li>{t('factoryResults.app5')}</li>
             <li>{t('factoryResults.app6')}</li>
+            <li>{t('factoryResults.app7')}</li>
           </ul>
         </Section>
 
